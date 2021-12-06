@@ -1,0 +1,520 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap');
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: auto;
+}
+
+.container .homepage{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
+.container .homepage:nth-child(1){
+    background:#8bcaff;
+}
+
+.homepage .navbar
+{
+    background: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.homepage .navbar header h2{
+    padding-top: 10px;
+}
+
+
+.homepage nav .active{
+    background: #000000;
+    border-radius: 10px;
+    border-style:solid;
+    padding: 10px 0 10px 0;
+      
+}
+
+.homepage header {
+    display:flex;
+    justify-content:space-between;
+    padding: 15px 8px;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.homepage nav li {
+    display: inline-block;
+    margin: 10px 10px;
+    font-weight: 600;
+    font-size: 20px; 
+}
+
+
+.homepage nav li a {
+    text-decoration: none;
+    color: #ffffff;
+    width: 120px;
+    margin: 10px;
+    padding: 15px;
+    
+}
+
+.homepage nav li a:hover {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    
+}
+
+.homepage .main{
+    width: 100%;
+    display: flex;
+}
+
+
+.homepage .content{
+    width: 100%;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    margin-top: 200px;
+    
+}
+
+.homepage .content h1{
+    font-size: 120px;
+    margin-bottom: -10px;
+    
+}
+
+.homepage .content h3{
+    font-size: 19.5px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.homepage button{
+    width: 38%;
+    padding: 20px 4%;
+    background: #000000;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform:uppercase;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-style: solid;
+    margin-top:1%;
+    border-radius: 10px;
+}
+
+.homepage button:hover{
+    background: #ffffff;
+    color: #000000;
+    border-color: rgb(133, 133, 133);
+}
+
+.homepage .content h2{
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+
+
+/* music page*/
+
+
+.container .musicpage{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
+.container .musicpage:nth-child(2){
+    background:#8bcaff;
+}
+
+.musicpage .navbar
+{
+    background: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.musicpage .navbar header h2{
+    padding-top: 10px;
+}
+
+
+.musicpage nav .active{
+    background: #000000;
+    border-radius: 10px;
+    border-style:solid;
+    padding: 10px 0 10px 0;
+      
+}
+
+.musicpage header {
+    display:flex;
+    justify-content:space-between;
+    padding: 15px 8px;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.musicpage nav li {
+    display: inline-block;
+    margin: 10px 10px;
+    font-weight: 600;
+    font-size: 20px; 
+}
+
+
+.musicpage nav li a {
+    text-decoration: none;
+    color: #ffffff;
+    width: 120px;
+    margin: 10px;
+    padding: 15px;
+    
+}
+
+.musicpage nav li a:hover {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.musicpage h1{
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+.musicpage .container{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+
+.musicpage .card{
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow:#ffffff 0 0 10px 2px;
+}
+
+.musicpage .cardimage{
+    background-color: #ff3c6a;
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius:20px 20px 0 0 ;
+}
+
+.car1{
+    background-image: url(1.jpg);
+}
+
+.car2{
+    background-image: url(2.jpg);
+}
+
+.car3{
+    background-image: url(3.jpg);
+}
+
+.musicpage .card p{
+    padding: 15px;
+}
+
+.musicpage .card a{
+    font-weight: 500;
+    font-size: 20px;
+    padding: 15px 20px;
+    background-color: #002364;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    
+}
+/*
+.musicpage .card:hover{
+    cursor: pointer;
+    transform:scale(1.05) ;
+    transition: 0.2s ease-in-out;
+}
+*/
+.musicpage .card a:hover{
+    background: rgb(142, 0, 185);
+    color: #fff;
+    cursor: pointer;
+    transform:scale(1.09) ;
+    transition: all 0.5s ease;
+}
+
+
+
+
+
+
+
+
+/* about page*/
+
+
+.container .aboutpage{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
+.container .aboutpage:nth-child(3){
+    
+    background-image: url(bcolor.jpg); 
+}
+
+.aboutpage .navbar
+{
+    background: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.aboutpage .navbar header h2{
+    padding-top: 10px;
+}
+
+
+.aboutpage nav .active{
+    background: #000000;
+    border-radius: 10px;
+    border-style:solid;
+    padding: 10px 0 10px 0;
+      
+}
+
+.aboutpage header {
+    display:flex;
+    justify-content:space-between;
+    padding: 15px 8px;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.aboutpage nav li {
+    display: inline-block;
+    margin: 10px 10px;
+    font-weight: 600;
+    font-size: 20px; 
+}
+
+
+.aboutpage nav li a {
+    text-decoration: none;
+    color: #ffffff;
+    width: 120px;
+    margin: 10px;
+    padding: 15px;
+    
+}
+
+.aboutpage nav li a:hover {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.aboutpage .full{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.aboutpage h1{
+    color: rgb(0, 0, 0);
+    font-size: 5rem;
+}
+
+.aboutpage .full h2{
+    color: rgb(0, 0, 0);
+    font-size: 2rem; 
+     
+}
+
+.aboutpage .full .image{
+    margin-top: 2rem; 
+    
+}
+
+.aboutpage .full p{
+    font-size: 1.5rem;
+    color: #ffffff;
+    line-height: 2.7rem;
+    margin-bottom: 1rem;
+}
+
+.aboutpage .full .btn{
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #8bcaff;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.aboutpage .full .btn:hover{
+    background: #00559b;
+    color: #fff;
+}
+
+
+/* contact page*/
+
+
+.container .contactpage{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
+.container .contactpage:nth-child(4){
+    background:#8bcaff;
+}
+
+.contactpage .navbar
+{
+    background: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.contactpage .navbar header h2{
+    padding-top: 10px;
+}
+
+
+.contactpage nav .active{
+    background: #000000;
+    border-radius: 10px;
+    border-style:solid;
+    padding: 10px 0 10px 0;
+      
+}
+
+.contactpage header {
+    display:flex;
+    justify-content:space-between;
+    padding: 15px 8px;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.contactpage nav li {
+    display: inline-block;
+    margin: 10px 10px;
+    font-weight: 600;
+    font-size: 20px; 
+}
+
+
+.contactpage nav li a {
+    text-decoration: none;
+    color: #ffffff;
+    width: 120px;
+    margin: 10px;
+    padding: 15px;
+    
+}
+
+.contactpage nav li a:hover {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+
+
+.contactpage .contact h1{
+    text-align: center;
+    color: #000000;
+    margin-top: 100px;
+    font-size: 3rem;
+}
+
+.contactpage .contactform{
+    max-width: 600px;
+    margin: auto;
+    padding: 10px 17px;
+    overflow: hidden;
+    background-color: #b4dbfb;
+    border-radius: 10px;
+}
+
+.contactpage .contactformtext{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 30px 0;
+    border: 0;
+    background: #ffffff;
+    padding: 20px 40px;
+    outline: none;
+    color:#ff87a3;
+    transition: 0.5s;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.contactpage .contactformtext:focus{
+    box-shadow: 0 0 10px 4px #00c3ff;
+}
+
+.contactpage textarea .contactformtext{
+    resize: none; 
+}
+
+.contactpage .contactformbtn{
+    align-items: center;
+    border-style: none;
+    background: #ffffff;
+    color: #000000;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.contactpage .contactformbtn:hover{
+    color: #ffffff;
+    background: rgb(0, 0, 0);
+    
+    
+}
